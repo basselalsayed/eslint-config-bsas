@@ -1,5 +1,11 @@
-// index.d.ts
 import type { Linter } from 'eslint';
 
-declare const config: Linter.Config[];
-export default config;
+export const configs: {
+  recommended: Linter.Config[];
+  vanilla: Linter.Config[];
+  react: Linter.Config[];
+  stylistic: Linter.Config[];
+};
+
+declare const defaultConfig: Linter.Config[];
+export default defaultConfig;

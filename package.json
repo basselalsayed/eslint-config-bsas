@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bsas",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "main": "index.js",
   "keywords": [
     "lint",
@@ -16,6 +16,13 @@
   "description": "An opinionated eslint typescript-react config",
   "type": "module",
   "types": "index.d.ts",
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "eslint": "^9.26.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.4.0",
+    "eslint-plugin-sort": "^4.0.0"
+  },
   "peerDependencies": {
     "@eslint/js": "^9.26.0",
     "@typescript-eslint/parser": "^8.32.1",
@@ -32,7 +39,6 @@
     "eslint-plugin-testing-library": "^7.2.0",
     "eslint-plugin-unicorn": "^59.0.1",
     "eslint-plugin-unused-imports": "^4.1.4",
-    "globals": "^16.1.0",
-    "prettier-plugin-tailwindcss": "^0.6.11"
+    "typescript-eslint": "^8.32.1"
   }
 }
