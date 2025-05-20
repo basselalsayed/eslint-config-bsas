@@ -57,7 +57,7 @@ import { configs } from 'eslint-config-bsas';
 import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
-  configs.vanilla,
+  configs.typescript,
   configs.react,
   configs.stylistic
 );
