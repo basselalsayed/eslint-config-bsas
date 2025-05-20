@@ -1,6 +1,6 @@
 # eslint-config-bsas
 
-My ESlint typescript-react config
+An opinionated ESlint typescript-react config
 
 ## ESLint Config Dependencies
 
