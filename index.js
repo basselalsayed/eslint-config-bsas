@@ -12,8 +12,6 @@ import unusedImports from 'eslint-plugin-unused-imports';
 import globals from 'globals';
 import { config, configs } from 'typescript-eslint';
 
-
-
 export default config(
   { ignores: ['dist'] },
   {
