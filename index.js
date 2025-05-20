@@ -12,8 +12,7 @@ import unusedImports from 'eslint-plugin-unused-imports';
 import globals from 'globals';
 import { config, configs } from 'typescript-eslint';
 
-import { DIRECTORIES } from './utils/constants.js';
-import { createImportBoundary } from './utils/create-import-boundary.fn.js';
+
 
 export default config(
   { ignores: ['dist'] },
@@ -157,7 +156,6 @@ export default config(
       react: { version: 'detect' },
     },
   },
-  ...DIRECTORIES.map((dir) => createImportBoundary(dir)),
   {
     files: ['**/*.test.{js,ts,tsx}', '**/test/*.{js,ts,tsx}'],
     rules: {
