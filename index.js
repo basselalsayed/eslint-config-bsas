@@ -1,7 +1,7 @@
-import react from './configs/react.js';
-import recommended from './configs/recommended.js';
-import stylistic from './configs/stylistic.js';
-import typescript from './configs/typescript.js';
+import react from './src/react.js';
+import recommended from './src/recommended.js';
+import stylistic from './src/stylistic.js';
+import typescript from './src/typescript.js';
 
 export const configs = {
   react,
